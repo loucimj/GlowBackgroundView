@@ -12,6 +12,7 @@
 		41DDD8A61F63808B00FD8BD6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 41DDD8A41F63808B00FD8BD6 /* Main.storyboard */; };
 		41DDD8A81F63808B00FD8BD6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 41DDD8A71F63808B00FD8BD6 /* Assets.xcassets */; };
 		41DDD8AB1F63808B00FD8BD6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 41DDD8A91F63808B00FD8BD6 /* LaunchScreen.storyboard */; };
+		41DDD8B31F63819C00FD8BD6 /* UIView+GlowBackground.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41DDD8B21F63819C00FD8BD6 /* UIView+GlowBackground.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		41DDD8A71F63808B00FD8BD6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		41DDD8AA1F63808B00FD8BD6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		41DDD8AC1F63808B00FD8BD6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		41DDD8B21F63819C00FD8BD6 /* UIView+GlowBackground.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+GlowBackground.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +62,7 @@
 				41DDD8A71F63808B00FD8BD6 /* Assets.xcassets */,
 				41DDD8A91F63808B00FD8BD6 /* LaunchScreen.storyboard */,
 				41DDD8AC1F63808B00FD8BD6 /* Info.plist */,
+				41DDD8B21F63819C00FD8BD6 /* UIView+GlowBackground.swift */,
 			);
 			path = GlowBackgroundView;
 			sourceTree = "<group>";
@@ -139,6 +142,7 @@
 			files = (
 				41DDD8A31F63808B00FD8BD6 /* ViewController.swift in Sources */,
 				41DDD8A11F63808B00FD8BD6 /* AppDelegate.swift in Sources */,
+				41DDD8B31F63819C00FD8BD6 /* UIView+GlowBackground.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
